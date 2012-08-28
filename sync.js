@@ -1,5 +1,5 @@
 // var socket = io.connect('http://morning-coast-9136.herokuapp.com/');
-var socket = io.connect('http://127.0.0.1:1980');
+var socket = io.connect('http://morning-coast-9136.herokuapp.com');
 var tecla = new Object();
 
 socket.on('connect', function(){
