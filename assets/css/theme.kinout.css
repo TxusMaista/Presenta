@@ -9,3 +9,16 @@
 .kinout a{color:rgba(255, 255, 255, 0.4);}.kinout a:hover,.kinout a:active{color:#ffffff;}
 .kinout .box{-webkit-box-shadow:0px 4px 8px rgba(0, 0, 0, 0.5);-moz-box-shadow:0px 4px 8px rgba(0, 0, 0, 0.5);box-shadow:0px 4px 8px rgba(0, 0, 0, 0.5);}
 .kinout .bordered{border:solid 8px #ffffff;}
+
+@font-face {
+font-family: "logo";
+<code>src: url(../image/neuropoli.ttf); /* IE */</code>
+src: url(../image/neuropoli.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'logo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../image/neuropoli.ttf) format('truetype');
+}
